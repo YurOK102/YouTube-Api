@@ -1,0 +1,10 @@
+.video iframe {
+  width: 1035px;
+  height: 580px;
+  border: none;
+}
+.description__title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}

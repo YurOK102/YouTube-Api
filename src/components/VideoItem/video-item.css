@@ -1,0 +1,36 @@
+.video__item_line {
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 30px;
+}
+.video__item_underline {
+  width: 245px;
+  cursor: pointer;
+  flex-direction: column;
+}
+.video__item_detail {
+  width: 100%;
+  flex-direction: column;
+}
+
+.video__item_images_line {
+  max-width: 215px;
+  max-height: 120px;
+  margin-right: 20px;
+}
+.video__item_images_underline {
+  max-width: 245px;
+  max-height: 140px;
+}
+
+.video__item_text_line {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+}
+.video__item_text_underline {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 10px 0 30px 0;
+}

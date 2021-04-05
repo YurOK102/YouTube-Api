@@ -1,0 +1,10 @@
+.content__line {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+.content__underline {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

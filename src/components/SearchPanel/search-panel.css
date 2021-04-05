@@ -1,0 +1,137 @@
+.container {
+  width: 1040px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.container__wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container__wrap-active {
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.container__search {
+  width: 680px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container__search-active {
+  width: 100%;
+  justify-content: start;
+  align-items: start;
+  margin-top: 50px;
+}
+
+.container__search h2 {
+  font-size: 36px;
+  font-weight: 400;
+}
+.container__search-active h2 {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.container__search_field {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.container__search_field input {
+  width: 100%;
+  height: 52px;
+  border: 1px solid rgba(23, 23, 25, 0.2);
+  border-radius: 5px 0 0 5px;
+  border-right: none;
+  padding-left: 20px;
+  outline: none;
+}
+
+input[type='search']::-webkit-input-placeholder {
+  color: #272727;
+  opacity: 0.3;
+}
+input[type='search']::-moz-placeholder {
+  color: #272727;
+  opacity: 0.3;
+}
+
+.container__search_btn {
+  width: 150px;
+  height: 52px;
+  color: #fff;
+  font-size: 20px;
+  background: #1390e5;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.container__search_filter-panel {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container__search_filter-panel-block {
+  display: none;
+}
+
+.filter-panel__text {
+  width: 700px;
+  display: flex;
+  align-items: center;
+}
+.filter-panel__text p {
+  font-size: 16px;
+}
+.filter-panel__text span {
+  font-size: 16px;
+  font-weight: 500;
+}
+.filter-panel_total {
+  font-size: 16px;
+  color: rgba(23, 23, 25, 0.3);
+  margin-left: 15px;
+}
+
+.filter-panel__btn {
+  width: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container__content {
+  width: 100%;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.container__content-none {
+  display: none;
+}
+
+.btn__toggle {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.btn__toggle span {
+  width: 16px;
+  height: 16px;
+}
